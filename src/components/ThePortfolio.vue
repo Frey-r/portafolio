@@ -159,7 +159,7 @@ Desplegué actualizaciones de servicios de firma alojados en EC2.
     <template #content>
       <ProjectItem>
         <template #heading>
-          Scrapper para ofertas de inmuebles.
+          Scrapper para ofertas de inmuebles:
         </template>
         <template #technology>
           <TechCard>
