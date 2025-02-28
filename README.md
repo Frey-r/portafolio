@@ -25,24 +25,29 @@ Portafolio profesional desarrollado con Vue.js, destacando mi experiencia como d
 # Clonar el repositorio
 git clone https://github.com/Frey-r/portafolio.git
 ```
+
 ``` bash
 # Instalar dependencias
 npm install
-``` 
+```
+
 ``` bash
 # Iniciar servidor de desarrollo
 npm run dev
-``` 
+```
+
 ``` bash
 # Construir para producción
 npm run build
-``` 
+```
+
 ``` bash
 # Previsualizar build de producción
 npm run preview
-``` 
+```
 
 📁 Estructura del Proyecto
+
 ``` bash
 src/
 ├── components/        # Componentes
@@ -50,7 +55,7 @@ src/
 ├── assets/            # Recursos estáticos        
 ├── styles/            # Estilos globales
 └── App.vue            # Componente raíz
-``` 
+```
 
 🏗️ Arquitectura
 El proyecto está estructurado usando un sistema de componentes modular:
@@ -72,12 +77,13 @@ Subir contenido de la carpeta dist a un repositorio de GitHub
 
 Configurar el repositorio para Github Pages
 
-
 🤝 Contacto
 LinkedIn: https://www.linkedin.com/in/eduardo-bachmann-20a275183/
 
 GitHub: https://github.com/Frey-r
 
 Email: eduardo.bachmann.f@gmail.com
+
+Link: https://frey-r.github.io/webdeploy/
 
 --- ⭐️ Si te gusta este proyecto, ¡no dudes en darle una estrella!
