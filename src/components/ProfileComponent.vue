@@ -28,7 +28,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
           2+ Años de experiencia
         </p>
         <div class="profile-tech">
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <GitIcon />
             </template>
@@ -36,7 +36,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>Git</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <PythonIcon />
             </template>
@@ -44,7 +44,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>Python</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <VueIcon />
             </template>
@@ -52,7 +52,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>Vue</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <SpringIcon />
             </template>
@@ -60,7 +60,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>Spring</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <JavaIcon />
             </template>
@@ -68,7 +68,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>Java</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <JavascriptIcon />
             </template>
@@ -76,7 +76,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>JS</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <SQLIcon />
             </template>
@@ -84,7 +84,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>SQL</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <HtmlIcon />
             </template>
@@ -92,7 +92,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>HTML</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <CssIcon />
             </template>
@@ -100,7 +100,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>CSS</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <AwsIcon />
             </template>
@@ -108,7 +108,7 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
               <span>AWS</span>
             </template>
           </TechCard>
-          <TechCard>
+          <TechCard class = "tech-card">
             <template #icon>
               <FlaskIcon />
             </template>
@@ -156,6 +156,10 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
         gap: 0.6rem;
         max-width: 100%;
         margin-top: 1rem;
+
+        & .tech-card{
+
+        }
       }
     }
   }
