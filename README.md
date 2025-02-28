@@ -6,7 +6,7 @@ Portafolio profesional desarrollado con Vue.js, destacando mi experiencia como d
 
 - **Vue.js 3** - Framework principal con Composition API
 - **Vite** - Build tool y desarrollo
-- **AWS S3** - Hosting
+- **Github Pages** - Hosting
 - **CSS Variables** - Theming y estilos consistentes
 - **Diseño Responsive** - Mobile-first approach
 
