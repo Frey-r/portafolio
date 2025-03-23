@@ -16,7 +16,9 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
 <template>
   <div class="profile-component">
     <section class="profile-image-text">
-      <img alt="Eduardo Bachmann" class="profile-image" src="../assets/Picsart_25-02-25_14-14-02-914.webp">
+      <div class="img-container">
+        <img alt="Eduardo Bachmann Backend dev developer" class="profile-image" src="../assets/portfolio-portrait.webp">
+      </div>
       <div class="profile-text">
         <h1 class = "profile-subtitle text-primary">
           Eduardo Bachmann
@@ -129,9 +131,15 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
     max-height: 80%;
     align-items: center;
     gap: 1rem;
-    & img{
-      max-height: 55svh;
-      max-width: 26svw;
+    & .img-container{
+      padding: 1rem .6em 0 0.6rem;
+      background-color: var(--bt-c-text-secundary);
+      display: flex;
+      border-radius: .2rem;
+      & img{
+        max-height: 57svh;
+        max-width: 100%;
+      }
     }
     & .profile-text{
       display: flex;
