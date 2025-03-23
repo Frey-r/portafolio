@@ -11,6 +11,7 @@ import HtmlIcon from "@/components/icons/IconHtml.vue";
 import CssIcon from "@/components/icons/IconCss.vue";
 import AwsIcon from "@/components/icons/IconAws.vue";
 import FlaskIcon from "@/components/icons/IconFlask.vue";
+import PetryIcon from "@/components/icons/IconPoetry.vue";
 </script>
 
 <template>
@@ -114,6 +115,14 @@ import FlaskIcon from "@/components/icons/IconFlask.vue";
             </template>
             <template #content>
               <span>Flask</span>
+            </template>
+          </TechCard>
+          <TechCard class = "tech-card">
+            <template #icon>
+              <PetryIcon />
+            </template>
+            <template #content>
+              <span>Poetry</span>
             </template>
           </TechCard>
         </div>
