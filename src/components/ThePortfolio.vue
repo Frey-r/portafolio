@@ -167,6 +167,14 @@ Desplegué actualizaciones de servicios de firma alojados en EC2.
         <template #technology>
           <TechCard>
             <template #icon>
+              <PandasIcon />
+            </template>
+            <template #content>
+              Pandas
+            </template>
+          </TechCard>
+          <TechCard>
+            <template #icon>
               <SQLiteIcon />
             </template>
             <template #content>
@@ -175,10 +183,10 @@ Desplegué actualizaciones de servicios de firma alojados en EC2.
           </TechCard>
           <TechCard>
             <template #icon>
-              <FastAPIIcon  />
+              <SeleniumIcon  />
             </template>
             <template #content>
-              FastAPI
+              Selenium
             </template>
           </TechCard>
         </template>
@@ -233,7 +241,7 @@ Desplegué actualizaciones de servicios de firma alojados en EC2.
           </TechCard>
           <TechCard>
             <template #icon>
-              <SeleniumIcon />
+              <FastAPIIcon />
             </template>
             <template #content>
               FastAPI
@@ -252,9 +260,11 @@ Desplegué actualizaciones de servicios de firma alojados en EC2.
           <p>
             Este bot está diseñado para:
           </p>
-          <p>
-            Este bot está diseñado para trackear el ranking de los jugadores en una competición de Elo, permitiendo a los jugadores retar a otros y actualizar sus puntajes.
-          </p>
+          <ul>
+            <li>Conectarse a la API de Riot Games para obtener información de los jugadores.</li>
+            <li>Crear carreras de Elo, a modo de competencia para los jugadores.</li>
+            <li>Monitorear cambios en los jugadores a lo largo del tiempo.</li>
+          </ul>
         </template>
       </ProjectItem>
     </template>
