@@ -9,7 +9,10 @@ import ExperienceIcon from "@/components/icons/IconExperience.vue";
 import PandasIcon from "@/components/icons/IconPandas.vue";
 import SQLiteIcon from "@/components/icons/IconSQLite.vue";
 import SeleniumIcon from "@/components/icons/IconSelenium.vue";
+import FastAPIIcon from "@/components/icons/IconFastAPI.vue";
 import GithubIcon from "@/components/icons/IconGithub.vue";
+import PoetryIcon from "@/components/icons/IconPoetry.vue";
+import PythonIcon from "@/components/icons/IconPython.vue";
 </script>
 
 <template>
@@ -164,14 +167,6 @@ Desplegué actualizaciones de servicios de firma alojados en EC2.
         <template #technology>
           <TechCard>
             <template #icon>
-              <PandasIcon />
-            </template>
-            <template #content>
-              Pandas
-            </template>
-          </TechCard>
-          <TechCard>
-            <template #icon>
               <SQLiteIcon />
             </template>
             <template #content>
@@ -180,10 +175,10 @@ Desplegué actualizaciones de servicios de firma alojados en EC2.
           </TechCard>
           <TechCard>
             <template #icon>
-              <SeleniumIcon />
+              <FastAPIIcon  />
             </template>
             <template #content>
-              Selenium
+              FastAPI
             </template>
           </TechCard>
         </template>
@@ -205,7 +200,61 @@ Desplegué actualizaciones de servicios de firma alojados en EC2.
             <li>Monitorear cambios en los listados a lo largo del tiempo.</li>
             <li>Mantener un historial de los listados de propiedades.</li>
           </ul>
-
+        </template>
+      </ProjectItem>
+      <ProjectItem>
+        <template #heading>
+          Bot de Discord para competición de Elo:
+        </template>
+        <template #technology>
+          <TechCard>
+            <template #icon>
+              <PoetryIcon />
+            </template>
+            <template #content>
+              Poetry
+            </template>
+          </TechCard>
+          <TechCard>
+            <template #icon>
+              <PythonIcon />
+            </template>
+            <template #content>
+              Python
+            </template>
+          </TechCard>
+          <TechCard>
+            <template #icon>
+              <SQLiteIcon />
+            </template>
+            <template #content>
+              SQLite
+            </template>
+          </TechCard>
+          <TechCard>
+            <template #icon>
+              <SeleniumIcon />
+            </template>
+            <template #content>
+              FastAPI
+            </template>
+          </TechCard>
+        </template>
+        <template #link>
+          <a href="https://github.com/Frey-r/EloRace" class="github-link">
+            <i>
+              <GithubIcon />
+            </i>
+            <span>Ver en Github</span>
+          </a>
+        </template>
+        <template #description>
+          <p>
+            Este bot está diseñado para:
+          </p>
+          <p>
+            Este bot está diseñado para trackear el ranking de los jugadores en una competición de Elo, permitiendo a los jugadores retar a otros y actualizar sus puntajes.
+          </p>
         </template>
       </ProjectItem>
     </template>
